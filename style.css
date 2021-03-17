@@ -1,0 +1,72 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header > span {
+  font-size: 60px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 15px;
+  position: relative;
+  top: -100px;
+}
+.numbers {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+  position: relative;
+  top: -20px;
+}
+.num {
+  background-color: rgb(252, 196, 61);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+.num:nth-child(3),
+.num:nth-child(4),
+.num:nth-child(5) {
+  background-color: rgb(241, 141, 128);
+}
+.num:nth-child(6) {
+  background-color: rgb(107, 206, 158);
+}
+.num:last-child {
+  background-color: rgb(167, 162, 222);
+}
+.plus {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.num span {
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 550;
+}
+button {
+  width: 80px;
+  height: 30px;
+}
+.name {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
