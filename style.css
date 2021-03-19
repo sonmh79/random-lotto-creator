@@ -24,7 +24,6 @@ header > span {
   top: -20px;
 }
 .num {
-  background-color: rgb(252, 196, 61);
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -34,17 +33,7 @@ header > span {
   font-size: 30px;
   color: white;
 }
-.num:nth-child(3),
-.num:nth-child(4),
-.num:nth-child(5) {
-  background-color: rgb(241, 141, 128);
-}
-.num:nth-child(6) {
-  background-color: rgb(107, 206, 158);
-}
-.num:last-child {
-  background-color: rgb(167, 162, 222);
-}
+
 .plus {
   width: 80px;
   height: 80px;
@@ -69,4 +58,19 @@ button {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+.yellow {
+  background-color: rgb(252, 196, 61);
+}
+.blue {
+  background-color: rgb(140, 198, 231);
+}
+.purple {
+  background-color: rgb(167, 162, 222);
+}
+.pink {
+  background-color: rgb(241, 141, 128);
+}
+.green {
+  background-color: rgb(107, 206, 158);
 }
