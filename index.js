@@ -1,9 +1,6 @@
 const btn = document.querySelector("button");
 const nums = document.querySelectorAll(".num");
 
-function setNumbers(){
-    
-}
 
 function makeNum(e){
     nums.forEach(function(num){
